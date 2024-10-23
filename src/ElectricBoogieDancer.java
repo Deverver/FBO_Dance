@@ -1,4 +1,14 @@
-package PACKAGE_NAME;
 
-public class ElectricBoogieDancer {
+public class ElectricBoogieDancer extends Dancer {
+
+    // Constructor
+    public ElectricBoogieDancer(String name, int age, String danceStyle) {
+        super(name, age, danceStyle);
+
+    }
+
+
+
+
+
 }
